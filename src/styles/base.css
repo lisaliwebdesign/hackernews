@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body,
+input,
+textarea,
+span {
+  font-family: "Barlow Condensed", sans-serif;
+}
+.navbar-guest {
+  border-top: 10px solid #000000;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 4.25rem !important;
+}
+.active {
+  background-color: #000000;
+  color: #ffffff;
+}
