@@ -5,6 +5,8 @@ class NewsStore {
   @observable
   newsData = null;
   @observable
+  newsDataCount = null;
+  @observable
   loadDataError = false;
   @observable
   pageName = "";
@@ -16,6 +18,7 @@ class NewsStore {
         "https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty";
       const response = await axios.get(filePath);
       // this.newsData = response.data;
+      this.newsDataCount = response.data.length;
       this.loadItem(response.data);
     } catch (error) {
       this.loadDataError = true;
@@ -26,7 +29,7 @@ class NewsStore {
   loadItem = data => {
     let dataItems = [];
     data.forEach((item, index) => {
-      if (index < 20) {
+      if (index < 100) {
         let filePath =
           "https://hacker-news.firebaseio.com/v0/item/" +
           item +
@@ -35,7 +38,7 @@ class NewsStore {
           .get(filePath)
           .then(response => {
             dataItems.push(response.data);
-            if (index === 19) {
+            if (index === 99) {
               this.newsData = dataItems;
             }
           })

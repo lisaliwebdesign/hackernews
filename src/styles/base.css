@@ -21,3 +21,109 @@ span {
   background-color: #000000;
   color: #ffffff;
 }
+.sandbox {
+  padding: 2rem 0;
+  overflow: hidden;
+}
+.story-col {
+  border-top: 5px solid #09bea2;
+}
+.job-col {
+  border-top: 5px solid #9769bf;
+}
+.comment-col {
+  border-top: 5px solid #053f6a;
+}
+.poll-col {
+  border-top: 5px solid #e72494;
+}
+.pollopt-col {
+  border-top: 5px solid #e87249;
+}
+.news-item {
+  float: left;
+  margin: 0.75em;
+  width: 310px;
+  height: 200px;
+  position: relative;
+}
+
+.title-bottom {
+  background-color: transparent;
+  border-top: 1px solid #dbdbdb;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+  color: #999999;
+}
+.bottom {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  bottom: 50px;
+  padding-right: 10px;
+}
+.item-right {
+  float: right;
+}
+.title-bottom .icon-highlight {
+  color: #91c33e;
+}
+.news-item .notification a:not(.button):not(.dropdown-item) {
+  text-decoration: none;
+}
+.news-item .notification a:not(.button):not(.dropdown-item):hover {
+  text-decoration: underline;
+}
+.no-style-btn {
+  border: 0;
+  background: none;
+}
+.no-style-btn .fa-comment-dots {
+  font-size: 1.2em;
+}
+.no-style-btn .fa-comment-dots:hover {
+  cursor: pointer;
+}
+.comment-modal {
+  font-size: 12px;
+}
+.comment-modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.comment-modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.comment-modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.comment-modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+@media screen and (max-width: 767px) {
+  .news-item {
+    width: 94%;
+  }
+  .popup-content {
+    width: 90% !important;
+  }
+}
