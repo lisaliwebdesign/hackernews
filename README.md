@@ -9,9 +9,11 @@ npm start
 ## To run test
 
 npm test
-![Desktop screenshot](https://github.com/lisaliwebdesign/hackernews/blob/master/src/images/hacknews-1.PNG"Desktop screenshot")
-![Tablet screenshot](https://github.com/lisaliwebdesign/hackernews/blob/master/src/images/hacknews-2.PNG"Tablet screenshot")
-![Mobile screenshot](https://github.com/lisaliwebdesign/hackernews/blob/master/src/images/hacknews-3.PNG"Mobile screenshot")
+
+
+![Desktop screenshot](https://github.com/lisaliwebdesign/hackernews/blob/master/src/images/hacknews-1.PNG)
+![Tablet screenshot](https://github.com/lisaliwebdesign/hackernews/blob/master/src/images/hacknews-2.PNG)
+![Mobile screenshot](https://github.com/lisaliwebdesign/hackernews/blob/master/src/images/hacknews-3.PNG)
 
 
 
