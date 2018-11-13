@@ -2,11 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const NavBar = props => (
-  <nav
-    role="navigation"
-    aria-label="main navigation"
-    className="navbar navbar-guest"
-  >
+  <nav aria-label="main navigation" className="navbar navbar-guest">
     <div className="container">
       <div className="navbar-brand">
         <a href="/" className="navbar-item">

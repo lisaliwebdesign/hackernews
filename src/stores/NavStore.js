@@ -2,37 +2,37 @@ const navData = [
   {
     path: "/news/topstories",
     name: "Top stories",
-    id: "nav-top-t",
+    id: "topstories",
     className: "navbar-item"
   },
   {
     path: "/news/newstories",
     name: "New stories",
-    id: "nav-new-s",
+    id: "newstories",
     className: "navbar-item"
   },
   {
     path: "/news/beststories",
     name: "Comments",
-    id: "nav-best-t",
+    id: "beststories",
     className: "navbar-item"
   },
   {
-    path: "/news/ask",
+    path: "/news/askstories",
     name: "Ask",
-    id: "nav-ask",
+    id: "askstories",
     className: "navbar-item"
   },
   {
-    path: "/news/show",
+    path: "/news/showstories",
     name: "Show",
-    id: "nav-show",
+    id: "showstories",
     className: "navbar-item"
   },
   {
-    path: "/news/job",
+    path: "/news/jobstories",
     name: "Job",
-    id: "nav-job",
+    id: "jobstories",
     className: "navbar-item"
   }
 ];

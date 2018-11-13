@@ -25,19 +25,27 @@ span {
   padding: 2rem 0;
   overflow: hidden;
 }
-.story-col {
+.story-col,
+.topstories-col {
   border-top: 5px solid #09bea2;
 }
-.job-col {
+.job-col,
+.jobstories-col {
   border-top: 5px solid #9769bf;
 }
-.comment-col {
+.comment-col,
+.newstories-col {
   border-top: 5px solid #053f6a;
 }
-.poll-col {
+.poll-col,
+.askstories-col {
   border-top: 5px solid #e72494;
 }
-.pollopt-col {
+.pollopt-col,
+.showstories-col {
+  border-top: 5px solid #e87249;
+}
+.news-show-item {
   border-top: 5px solid #e87249;
 }
 .news-item {
@@ -118,6 +126,9 @@ span {
   background: #ffffff;
   border-radius: 18px;
   border: 1px solid #cfcece;
+}
+.display-none {
+  display: none;
 }
 @media screen and (max-width: 767px) {
   .news-item {

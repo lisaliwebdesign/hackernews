@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Fragment } from "react";
 import Nav from "../components/Nav";
 import { LogIn } from "../elements/user";
 

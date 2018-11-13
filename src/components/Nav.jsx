@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { NavBar } from "../elements/nav";
 import { navData } from "../stores/NavStore";
 
@@ -7,7 +6,11 @@ export default class Nav extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      active: this.props.isLoginPage ? "user-log-in" : "nav-top-t",
+      active: this.props.isLoginPage
+        ? "user-log-in"
+        : this.props.selectedId
+        ? this.props.selectedId
+        : "topstories",
       toggle: false,
       isLogInNav: false
     };

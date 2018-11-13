@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Fragment } from "react";
 
 const NewsItemTitle = props => (
   <Fragment>
@@ -12,7 +12,7 @@ const NewsItemTitle = props => (
       <a target="_blank">
         {" "}
         {props.url !== undefined || props.url !== null
-          ? props.url.includes("https://")
+          ? /https:/ //.test(props.url)
             ? props.url.split("/")[2]
             : props.url
           : ""}

@@ -1,5 +1,4 @@
 import React from "react";
-import Moment from "react-moment";
 import PropTypes from "prop-types";
 import { NewsItemContainer } from "../elements/news";
 
@@ -9,6 +8,8 @@ export default class NewsItem extends React.Component {
   };
 
   render() {
-    return <NewsItemContainer content={this.props.data} />;
+    return (
+      <NewsItemContainer content={this.props.data} type={this.props.type} />
+    );
   }
 }
