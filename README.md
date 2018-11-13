@@ -10,9 +10,11 @@ npm start
 
 npm test
 
-
+## Desktop
 ![Desktop screenshot](https://github.com/lisaliwebdesign/hackernews/blob/master/src/images/hacknews-1.PNG)
+## Ipad
 ![Tablet screenshot](https://github.com/lisaliwebdesign/hackernews/blob/master/src/images/hacknews-2.PNG)
+## Mobile
 ![Mobile screenshot](https://github.com/lisaliwebdesign/hackernews/blob/master/src/images/hacknews-3.PNG)
 
 
