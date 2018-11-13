@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<components><Nav - renders component 1`] = `
+<NavBar
+  active="user-log-in"
+  content={
+    Array [
+      Object {
+        "className": "navbar-item",
+        "id": "topstories",
+        "name": "Top stories",
+        "path": "/news/topstories",
+      },
+      Object {
+        "className": "navbar-item",
+        "id": "newstories",
+        "name": "New stories",
+        "path": "/news/newstories",
+      },
+      Object {
+        "className": "navbar-item",
+        "id": "beststories",
+        "name": "Comments",
+        "path": "/news/beststories",
+      },
+      Object {
+        "className": "navbar-item",
+        "id": "askstories",
+        "name": "Ask",
+        "path": "/news/askstories",
+      },
+      Object {
+        "className": "navbar-item",
+        "id": "showstories",
+        "name": "Show",
+        "path": "/news/showstories",
+      },
+      Object {
+        "className": "navbar-item",
+        "id": "jobstories",
+        "name": "Job",
+        "path": "/news/jobstories",
+      },
+    ]
+  }
+  isLogInNav={true}
+  onClick={[Function]}
+  toggle={false}
+  toggleClick={[Function]}
+/>
+`;
