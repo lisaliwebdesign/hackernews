@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<components><Nav - renders component 1`] = `
+Array [
+  <nav
+    aria-label="main navigation"
+    class="navbar navbar-guest"
+>
+    <div
+        class="container"
+    >
+        <div
+            class="navbar-brand"
+        >
+            <a
+                class="navbar-item"
+                href="/"
+            >
+                <h1
+                    class="title has-text-centered is-2 hp-title"
+                >
+                    Hacker News
+                </h1>
+            </a>
+            <button
+                class="button navbar-burger"
+                data-target="navMenu"
+            >
+                <span>
+                    
+                </span>
+                 
+                <span>
+                    
+                </span>
+                 
+                <span>
+                    
+                </span>
+            </button>
+        </div>
+        <div
+            class="navbar-menu"
+            id="navMenu"
+        >
+            <div
+                class="navbar-start"
+            >
+                <a
+                    class="navbar-item active"
+                    href="/news/topstories"
+                    id="topstories"
+                >
+                    Top stories
+                </a>
+                <a
+                    class="navbar-item"
+                    href="/news/newstories"
+                    id="newstories"
+                >
+                    New stories
+                </a>
+                <a
+                    class="navbar-item"
+                    href="/news/beststories"
+                    id="beststories"
+                >
+                    Comments
+                </a>
+                <a
+                    class="navbar-item"
+                    href="/news/askstories"
+                    id="askstories"
+                >
+                    Ask
+                </a>
+                <a
+                    class="navbar-item"
+                    href="/news/showstories"
+                    id="showstories"
+                >
+                    Show
+                </a>
+                <a
+                    class="navbar-item"
+                    href="/news/jobstories"
+                    id="jobstories"
+                >
+                    Job
+                </a>
+            </div>
+            <div
+                class="navbar-end"
+            >
+                <div
+                    class="navbar-item"
+                >
+                    <a
+                        href="/user/login"
+                    >
+                        SIGN IN
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>,
+  " ",
+  <div
+    class="container"
+>
+    Sorry... very embarassing
+</div>,
+]
+`;
